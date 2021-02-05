@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Semaphore_CuteMonster</string>
+    <string name="red_btn">Red</string>
+    <string name="yellow_btn">Yellow</string>
+    <string name="green_btn">Green</string>
+    <string name="clear_bckg_btn">Clear background color</string>
+</resources>
