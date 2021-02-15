@@ -83,3 +83,7 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+#
+# Zip and Docx files
+*.zip
+*.docx
