@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Second_Laboratory_Work</string>
+    <string name="chosen_image">Your chosen image</string>
+    <string name="choose_image_btn">Choose Image</string>
+</resources>
