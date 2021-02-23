@@ -2,7 +2,7 @@
 
 This is a repository which contains [Moldova State Unviersity](https://fmi.usm.md) laboratory works for the "Android Development" lectures.
 
-#### Repository Contetnt
+#### Repository Content
 
 - [First Lab](./First/)
     - [First Lab Sources](./First/Semaphore_CuteMonster)
