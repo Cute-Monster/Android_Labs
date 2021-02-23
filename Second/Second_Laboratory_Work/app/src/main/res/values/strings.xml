@@ -2,4 +2,16 @@
     <string name="app_name">Second_Laboratory_Work</string>
     <string name="chosen_image">Your chosen image</string>
     <string name="choose_image_btn">Choose Image</string>
+    <string name="imageNameTextView">Chose counter ==></string>
+
+    <string name="emoticonTextView">Choose image</string>
+    <string name="firstImage">Airplay</string>
+    <string name="secondImage">Anchor</string>
+    <string name="thirdImage">Bike_Scooter</string>
+    <string name="fourthImage">Biotech</string>
+    <string name="fiveImage">Backpack</string>
+    <string name="sixImage">Money</string>
+    <string name="sevenImage">Backup</string>
+    <string name="eightImage">Bedtime</string>
+    <string name="nineImage">Elderly</string>
 </resources>
