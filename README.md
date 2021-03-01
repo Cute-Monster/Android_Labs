@@ -10,4 +10,4 @@ This is a repository which contains [Moldova State Unviersity](https://fmi.usm.m
 
 - [Second Lab](./Second)
     - [Second Lab Sources](./Second/Second_Laboratory_Work)
-    - [Second Lab Report](./Second/Second_Lab_Report_Runtov_Constantin_i1802.docx)
+    - [Second Lab Report](./Second/Second_Lab_Report_Runtov_Constantin_i1802.pdf)
