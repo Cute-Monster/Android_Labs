@@ -14,8 +14,9 @@ public class EmoticonSelection extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emoticon_selection);
+
+        /// ImageButtons initialization
         this.initButtons();
-        this.initListeners();
     }
 
     private void initButtons(){
@@ -30,6 +31,7 @@ public class EmoticonSelection extends AppCompatActivity {
                 findViewById(R.id.eightImage),
                 findViewById(R.id.nineImage)
         };
+        this.initListeners();
     }
 
     private void initListeners(){

@@ -14,10 +14,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        /// Initialize button listener
         this.init_listeners();
+        /// Setting TextView counter
         this.setChoseCounterText();
     }
 
+    /**
+     * Method which initializes button listener
+     * */
     private void init_listeners(){
         findViewById(R.id.ImageChooseBtn).setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, EmoticonSelection.class);
@@ -29,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (requestCode == 1) {
+        if (resultCode == 1) {
             this.choseCounter++ ;
             this.init_image(data);
             this.setChoseCounterText();
@@ -42,17 +48,6 @@ public class MainActivity extends AppCompatActivity {
         imageView.setImageResource(
                 this.drawable_Choose(
                         savedState.getIntExtra("ImageChosen", R.id.resultImageView)
-                )
-        );
-    }
-
-    private void setChoseCounterText(){
-        TextView chooseCounterShow = findViewById(R.id.imageNameTextView);
-        chooseCounterShow.setText(
-                String.format(
-                        "%s %s",
-                        getString(R.string.imageNameTextView),
-                        (this.choseCounter == 0) ? "First Launch" : Integer.toString(this.choseCounter)
                 )
         );
     }
@@ -77,8 +72,20 @@ public class MainActivity extends AppCompatActivity {
                 return R.drawable.bedtime;
             case R.id.nineImage:
                 return R.drawable.elderly;
+            default:
+                return R.drawable.ic_launcher_foreground;
         }
-        return R.drawable.ic_launcher_foreground;
+    }
+
+    private void setChoseCounterText(){
+        TextView chooseCounterShow = findViewById(R.id.imageNameTextView);
+        chooseCounterShow.setText(
+                String.format(
+                        "%s %s",
+                        getString(R.string.imageNameTextView),
+                        (this.choseCounter == 0) ? "First Launch" : Integer.toString(this.choseCounter)
+                )
+        );
     }
 
 
