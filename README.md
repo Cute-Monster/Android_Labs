@@ -6,9 +6,13 @@ for the "Android Development" lectures at [Faculty of Computer Science](https://
 #### Repository Content
 
 - [First Lab](./First/)
-    - [First Lab Sources](./First/Semaphore_CuteMonster)
+    - [First Lab Sources](./First/Semaphore_CuteMonster/)
     - [First Lab Report](./First/First_Lab_Report_Runtov_Constantin_i1802.pdf)
 
-- [Second Lab](./Second)
-    - [Second Lab Sources](./Second/Second_Laboratory_Work)
+- [Second Lab](./Second/)
+    - [Second Lab Sources](./Second/Second_Laboratory_Work/)
     - [Second Lab Report](./Second/Second_Lab_Report_Runtov_Constantin_i1802.pdf)
+
+- [Third Lab](./Third/)
+    - [Third Lab Sources](./Third/Third_Laboratory_Work/)
+    - [Third Lab Report](./Third/Third_Lab_Report_Runtov_Constantin_i1802.pdf) [ In Progress ]
