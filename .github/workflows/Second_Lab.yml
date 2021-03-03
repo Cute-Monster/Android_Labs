@@ -29,26 +29,3 @@ jobs:
       run: |
         cd $SOURCE_DIR
         ./gradlew build
-    
-  
-  Third_Lab_Build:
-    name: Build Third Lab
-    runs-on: ubuntu-latest
-    env:
-      SOURCE_DIR: Third/Third_Laboratory_Work/
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: set up JDK 1.8
-      uses: actions/setup-java@v1
-      with:
-        java-version: 1.8
-
-    - name: Grant execute permission for gradlew
-      run: |
-        cd $SOURCE_DIR
-        chmod +x gradlew
-    - name: Build with Gradle
-      run: |
-        cd $SOURCE_DIR
-        ./gradlew build
