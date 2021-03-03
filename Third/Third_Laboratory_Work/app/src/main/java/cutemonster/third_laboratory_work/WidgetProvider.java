@@ -11,6 +11,10 @@ import android.widget.RemoteViews;
 import static cutemonster.third_laboratory_work.Widget_Config.KEY_BUTTON_TEXT;
 import static cutemonster.third_laboratory_work.Widget_Config.SHARED_PREFS;
 
+/**
+ * Создание Android приложения, которое будет иметь виджет.
+ * Данный виджет должен иметь какой-нибудь функционал.
+ * */
 public class WidgetProvider extends AppWidgetProvider {
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
