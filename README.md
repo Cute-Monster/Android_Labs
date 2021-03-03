@@ -15,4 +15,4 @@ for the "Android Development" lectures at [Faculty of Computer Science](https://
 
 - [Third Lab](./Third/)
     - [Third Lab Sources](./Third/Third_Laboratory_Work/)
-    - [Third Lab Report](./Third/Third_Lab_Report_Runtov_Constantin_i1802.pdf) [ In Progress ]
+    - [Third Lab Report](./Third/Third_Lab_Report_Runtov_Constantin_i1802.pdf)
