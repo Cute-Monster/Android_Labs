@@ -14,7 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: ~/repo/First/Semaphore_CuteMonster/
+    working_directory: ~/repo
 
     environment:
       # Customize the JVM maximum heap limit
@@ -24,8 +24,7 @@ jobs:
     steps:
       - checkout
 
-      - run: pwd
-      - run: ls 
+      - run: cd First/Semaphore_CuteMonster/ 
       - run: chmod +x gradlew
       - run: ./gradlew build
       - run: ./gradlew test
@@ -40,7 +39,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: ~/repo/Second/Second_Laboratory_Work/
+    working_directory: ~/repo/
 
     environment:
       # Customize the JVM maximum heap limit
@@ -50,6 +49,7 @@ jobs:
     steps:
       - checkout
 
+      - run: cd Second/Second_Laboratory_Work/
       - run: chmod +x gradlew
       - run: ./gradlew build
       - run: ./gradlew test
@@ -64,7 +64,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: ~/repo/Third/Third_Laboratory_Work/
+    working_directory: ~/repo/
 
     environment:
       # Customize the JVM maximum heap limit
@@ -74,6 +74,7 @@ jobs:
     steps:
       - checkout
 
+      - run: cd Third/Third_Laboratory_Work/
       - run: chmod +x gradlew
       - run: ./gradlew build
       - run: ./gradlew test
