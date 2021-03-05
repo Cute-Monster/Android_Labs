@@ -24,8 +24,9 @@ jobs:
     steps:
       - checkout
 
-      - run: pwd 
-      - run: chmod +x ./gradlew
+      - run: pwd
+      - run: ls 
+      - run: chmod +x gradlew
       - run: ./gradlew build
       - run: ./gradlew test
   
@@ -49,7 +50,7 @@ jobs:
     steps:
       - checkout
 
-      - run: chmod +x ./gradlew
+      - run: chmod +x gradlew
       - run: ./gradlew build
       - run: ./gradlew test
   
@@ -73,7 +74,7 @@ jobs:
     steps:
       - checkout
 
-      - run: chmod +x ./gradlew
+      - run: chmod +x gradlew
       - run: ./gradlew build
       - run: ./gradlew test
 
