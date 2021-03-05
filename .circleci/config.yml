@@ -24,7 +24,8 @@ jobs:
     steps:
       - checkout
 
-      - run: cd First/Semaphore_CuteMonster/ 
+      - run: cd First/Semaphore_CuteMonster/
+      - run: pwd && echo "" && ls
       - run: chmod +x gradlew
       - run: ./gradlew build
       - run: ./gradlew test
@@ -83,5 +84,5 @@ workflows:
   my_workflow:
     jobs:
       - build_First
-      - build_Second
-      - build_Third
+      # - build_Second
+      # - build_Third
