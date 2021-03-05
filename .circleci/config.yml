@@ -24,6 +24,7 @@ jobs:
     steps:
       - checkout
 
+      - run: pwd 
       - run: chmod +x ./gradlew
       - run: ./gradlew build
       - run: ./gradlew test
