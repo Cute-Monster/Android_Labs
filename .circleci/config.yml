@@ -4,7 +4,7 @@
 #
 version: 2
 jobs:
-  build_First:
+  build-First:
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
@@ -28,7 +28,7 @@ jobs:
       - run: ./gradlew build
       - run: ./gradlew test
   
-  build_Second:
+  build-Second:
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
@@ -52,7 +52,7 @@ jobs:
       - run: ./gradlew build
       - run: ./gradlew test
   
-  build_Third:
+  build-Third:
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
