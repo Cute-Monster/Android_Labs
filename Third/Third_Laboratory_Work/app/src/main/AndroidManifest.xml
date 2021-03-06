@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
 
-        <!-- Widget Section !-->
+        <!-- Start of Widget Section !-->
+
         <receiver android:name=".WidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -36,6 +37,9 @@
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
+
+        <!-- End of Widget Section !-->
+
     </application>
 
 </manifest>
